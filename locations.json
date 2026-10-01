@@ -1,0 +1,544 @@
+{
+ "locations": [
+  {
+   "id": "1010",
+   "name": "A C Corcoran Elementary School",
+   "address": "8585 Vistavia Road, N Charleston SC 29406"
+  },
+  {
+   "id": "5018",
+   "name": "Ashley River Creative Arts Elementary",
+   "address": "1871 Wallace SChool Road, Charleston SC 29407"
+  },
+  {
+   "id": "6002",
+   "name": "Azalea Drive Church of Christ",
+   "address": "3950 Azalea Dr, North Charleston SC 29405"
+  },
+  {
+   "id": "5028",
+   "name": "Bees Ferry West Ashley Library",
+   "address": "3035 Sanders Rd, Charleston SC 29414"
+  },
+  {
+   "id": "5036",
+   "name": "Bees Landing Recreation Center",
+   "address": "1580 Ashley Gardens Blvd, Charleston SC 29414"
+  },
+  {
+   "id": "3026",
+   "name": "Belle Hall Elementary School",
+   "address": "385 Egypt Road, Mt Pleasant SC 29464"
+  },
+  {
+   "id": "1000",
+   "name": "Berkeley Electric Awendaw",
+   "address": "7200 Highway 17, Awendaw SC 29429"
+  },
+  {
+   "id": "4022",
+   "name": "Berkeley Electric Johns Island",
+   "address": "1135 Main Rd, Johns Island SC 29455"
+  },
+  {
+   "id": "2008",
+   "name": "Bethel United Methodist Church",
+   "address": "57 Pitt St, Charleston SC 29401"
+  },
+  {
+   "id": "3028",
+   "name": "Brickyard Community Center",
+   "address": "1100 Brickyard Parkway, Mt Pleasant SC 29466"
+  },
+  {
+   "id": "2016",
+   "name": "Burke High School",
+   "address": "244 President Street, Charleston SC 29403"
+  },
+  {
+   "id": "5020",
+   "name": "C E Williams Middle School North Campus",
+   "address": "1776 William Kennerty Dr, Charleston SC 29407"
+  },
+  {
+   "id": "5026",
+   "name": "C E Williams Middle School South Campus",
+   "address": "3090 Sanders Rd, Charleston SC 29414"
+  },
+  {
+   "id": "5004",
+   "name": "Calvary Chapel West Ashley",
+   "address": "1595 Savannah Hwy, Charleston SC 29407"
+  },
+  {
+   "id": "4034",
+   "name": "CC Blaney Elementary School",
+   "address": "7184 SC-162, Hollywood SC 29449"
+  },
+  {
+   "id": "1018",
+   "name": "Charles Ross Municipal Complex",
+   "address": "141 W Broad St, Lincolnville SC 29485"
+  },
+  {
+   "id": "2020",
+   "name": "Charleston Charter School for Math and Science",
+   "address": "1002 King Street, Charleston SC 29403"
+  },
+  {
+   "id": "5014",
+   "name": "Charleston County Masonic Center",
+   "address": "1285 Orange Grove Rd, Charleston SC 29407"
+  },
+  {
+   "id": "2012",
+   "name": "Charleston Progressive Academy",
+   "address": "382 Meeting St, Charleston SC 29403"
+  },
+  {
+   "id": "2014",
+   "name": "Charleston Water System",
+   "address": "103 Saint Philip St, Charleston SC 29403"
+  },
+  {
+   "id": "3022",
+   "name": "Christ Episcopal Church",
+   "address": "2304 N Highway 17, Mount Pleasant SC 29466"
+  },
+  {
+   "id": "5010",
+   "name": "Cynthia Graham Hurd/St Andrews Library",
+   "address": "1735 N Woodmere Dr, Charleston SC 29407"
+  },
+  {
+   "id": "6026",
+   "name": "Dorothy King Williams Community Center",
+   "address": "2401 Richardson Street, N Charleston SC 29406"
+  },
+  {
+   "id": "3014",
+   "name": "Doubletree by Hilton Mt Pleasant",
+   "address": "1330 Stuart Engals Blvd, Mount Pleasant SC 29464"
+  },
+  {
+   "id": "5034",
+   "name": "Drayton Hall Elementary School",
+   "address": "3183 Ashley River Road, Charleston SC 29414"
+  },
+  {
+   "id": "4040",
+   "name": "E B Ellington Elementary School",
+   "address": "5540 Old Jacksonboro Road, Ravenel SC 29470"
+  },
+  {
+   "id": "3038",
+   "name": "Eastbridge Presbyterian Church",
+   "address": "1250 Lexington Dr, Mount Pleasant SC 29466"
+  },
+  {
+   "id": "1022",
+   "name": "Edith L Frierson Elementary School",
+   "address": "6133 Maybank Hwy, Wadmalaw Island SC 29487"
+  },
+  {
+   "id": "1028",
+   "name": "Folly Beach Baptist Church",
+   "address": "77 Center Street, Folly Beach SC 29439"
+  },
+  {
+   "id": "4014",
+   "name": "Fort Johnson Baptist Church",
+   "address": "1473 Camp Rd, Charleston SC 29412"
+  },
+  {
+   "id": "2024",
+   "name": "Freddy Whaley Community Center",
+   "address": "1810 Doscher Ave, North Charleston SC 29405"
+  },
+  {
+   "id": "6006",
+   "name": "Garrett Academy Of Technology",
+   "address": "2731 Gordon Street, Charleston SC 29405"
+  },
+  {
+   "id": "6000",
+   "name": "Gethsemani Community Center",
+   "address": "2449 Beacon Street, Charleston SC 29405"
+  },
+  {
+   "id": "5024",
+   "name": "Greater Macedonia AME Church",
+   "address": "725 Savage Rd, Charleston SC 29414"
+  },
+  {
+   "id": "4016",
+   "name": "Harbor View Elementary School",
+   "address": "1576 Harborview Rd, Charleston SC 29412"
+  },
+  {
+   "id": "4012",
+   "name": "Harbor View Presbyterian Church",
+   "address": "900 Harbor View Rd, Charleston SC 29412"
+  },
+  {
+   "id": "4028",
+   "name": "Haut Gap Middle School",
+   "address": "1861 Bohicket Road, Johns Island SC 29455"
+  },
+  {
+   "id": "2000",
+   "name": "Hazel Parker Playground",
+   "address": "70 East Bay Street, Charleston SC 29401"
+  },
+  {
+   "id": "3004",
+   "name": "Hilton Garden Inn",
+   "address": "300 Wingo Way, Mount Pleasant SC 29464"
+  },
+  {
+   "id": "6024",
+   "name": "Hunley Park Elementary School",
+   "address": "1000 Michigan Ave, N Charleston SC 29418"
+  },
+  {
+   "id": "1002",
+   "name": "Isle Of Palms City Hall",
+   "address": "1207 Palm Boulevard, Isle Of Palms SC 29451"
+  },
+  {
+   "id": "1004",
+   "name": "Isle Of Palms Recreation",
+   "address": "24 28th Ave, Isle of Palms SC 29451"
+  },
+  {
+   "id": "3016",
+   "name": "James B Edwards Elementary School",
+   "address": "855 Von Kolnitz Rd, Mount Pleasant SC 29464"
+  },
+  {
+   "id": "4004",
+   "name": "James Island Charter High School",
+   "address": "1000 Fort Johnson Road, Charleston SC 29412"
+  },
+  {
+   "id": "4000",
+   "name": "James Island Elementary School",
+   "address": "1872 S Grimball Rd, Charleston SC 29412"
+  },
+  {
+   "id": "4010",
+   "name": "James Island Recreation Complex",
+   "address": "1088 Quail Drive, Charleston SC 29412"
+  },
+  {
+   "id": "4008",
+   "name": "James Island Town Hall",
+   "address": "1122 Dills Bluff Rd, Charleston SC 29412"
+  },
+  {
+   "id": "2018",
+   "name": "James Simons Montessori School",
+   "address": "741 King St, Charleston SC 29403"
+  },
+  {
+   "id": "3036",
+   "name": "Jennie Moore Elementary School",
+   "address": "2725 Bulrush Basket Ln, Mt Pleasant SC 29466"
+  },
+  {
+   "id": "4026",
+   "name": "Johns Island Library",
+   "address": "3531 Maybank Hwy, Johns Island SC 29455"
+  },
+  {
+   "id": "2022",
+   "name": "Joseph Floyd Manor",
+   "address": "2106 Mt Pleasant Street, Charleston SC 29403"
+  },
+  {
+   "id": "1014",
+   "name": "Ladson Elementary School",
+   "address": "3321 Ladson Road, Ladson SC 29456"
+  },
+  {
+   "id": "6022",
+   "name": "Lambs Elementary School",
+   "address": "6800 Dorchester Road, N Charleston SC 29418"
+  },
+  {
+   "id": "1008",
+   "name": "Lincoln Regional Center of SC",
+   "address": "714 Lincoln Rd, McClellanville SC 29458"
+  },
+  {
+   "id": "4036",
+   "name": "Lowcountry Leadership Charter School",
+   "address": "5139 Gibson Rd, Hollywood SC 29449"
+  },
+  {
+   "id": "3012",
+   "name": "Mamie P Whitesides Elementary School",
+   "address": "1565 Rifle Range Rd, Mt Pleasant SC 29464"
+  },
+  {
+   "id": "6008",
+   "name": "Mary Ford Early Learning and Family Center",
+   "address": "3180 Thomasina McPherson Blvd, N Charleston SC 29405"
+  },
+  {
+   "id": "2002",
+   "name": "Mason Preparatory School",
+   "address": "56 Halsey Blvd, Charleston SC 29401"
+  },
+  {
+   "id": "6012",
+   "name": "Matilda F Dunston Elementary School",
+   "address": "1825 Remount Road, N Charleston SC 29406"
+  },
+  {
+   "id": "2006",
+   "name": "Memminger Elementary School",
+   "address": "20 Beaufain St, Charleston SC 29401"
+  },
+  {
+   "id": "6028",
+   "name": "Midland Park Primary School",
+   "address": "2415 Midland Park Road, N Charleston SC 29406"
+  },
+  {
+   "id": "6004",
+   "name": "Miner Crosby Community Center",
+   "address": "3901 Paramount Drive, Charleston SC 29405"
+  },
+  {
+   "id": "4032",
+   "name": "Minnie Hughes Elementary School",
+   "address": "8548 Willtown Rd, Hollywood SC 29449"
+  },
+  {
+   "id": "3010",
+   "name": "Moultrie Middle School",
+   "address": "645 Coleman Blvd, Mt Pleasant SC 29464"
+  },
+  {
+   "id": "2004",
+   "name": "Moultrie Playground",
+   "address": "41 Ashley Ave, Charleston SC 29401"
+  },
+  {
+   "id": "6030",
+   "name": "Mt Moriah Missionary Baptist Church",
+   "address": "7396 Rivers Ave, North Charleston SC 29406"
+  },
+  {
+   "id": "3008",
+   "name": "Mt Pleasant Fire Department Station 3",
+   "address": "355 7th Ave, Mount Pleasant SC 29464"
+  },
+  {
+   "id": "3006",
+   "name": "Mt Pleasant Library",
+   "address": "1133 Mathis Ferry Rd, Mount Pleasant SC 29464"
+  },
+  {
+   "id": "3002",
+   "name": "Mt Pleasant Municipal Complex",
+   "address": "100 Ann Edwards Lane, Mt Pleasant SC 29464"
+  },
+  {
+   "id": "3034",
+   "name": "Mt Pleasant Park West Recreation Complex",
+   "address": "1251 Park West Blvd Ste 103, Mt Pleasant SC 29466"
+  },
+  {
+   "id": "4030",
+   "name": "Mt Zion Elementary School",
+   "address": "3464 River Road, Johns Island SC 29455"
+  },
+  {
+   "id": "4018",
+   "name": "Murray LaSaine Montessori School",
+   "address": "691 Riverland Dr, Charleston SC 29412"
+  },
+  {
+   "id": "6016",
+   "name": "North Charleston Sports Complex",
+   "address": "1455 Monitor St, North Charleston SC 29405"
+  },
+  {
+   "id": "5016",
+   "name": "Oakland Elementary School",
+   "address": "505 Arlington Dr, Charleston SC 29414"
+  },
+  {
+   "id": "5022",
+   "name": "Old St Andrews Parish Church",
+   "address": "2604 Ashley River Rd, Charleston SC 29414"
+  },
+  {
+   "id": "1012",
+   "name": "Otranto Library",
+   "address": "2261 Otranto Rd, North Charleston SC 29406"
+  },
+  {
+   "id": "3042",
+   "name": "Palmetto Presbyterian Church",
+   "address": "1720 Carolina Park Blvd, Mount Pleasant SC 29466"
+  },
+  {
+   "id": "6014",
+   "name": "Park Circle Community Building",
+   "address": "4800 Park Cir, North Charleston SC 29405"
+  },
+  {
+   "id": "6032",
+   "name": "Pepperhill Elementary School",
+   "address": "3300 Creola Road, N Charleston SC 29420"
+  },
+  {
+   "id": "1016",
+   "name": "Pinehurst Elementary School",
+   "address": "7753 Northside Dr, North Charleston SC 29420"
+  },
+  {
+   "id": "3030",
+   "name": "Point Hope Church",
+   "address": "3404 Turgot Ln, Mount Pleasant SC 29466"
+  },
+  {
+   "id": "3024",
+   "name": "R L Jones Recreation Center",
+   "address": "391 Egypt Road, Mt Pleasant SC 29464"
+  },
+  {
+   "id": "6010",
+   "name": "Royal Missionary Baptist Church",
+   "address": "4761 Luella Ave, North Charleston SC 29405"
+  },
+  {
+   "id": "2010",
+   "name": "Sanders Clyde Creative Arts School",
+   "address": "805 Morrison Drive, Charleston SC 29403"
+  },
+  {
+   "id": "1026",
+   "name": "Seabrook Island Lake House",
+   "address": "2319 Seabrook Island Rd, Johns Island SC 29455"
+  },
+  {
+   "id": "3018",
+   "name": "Seacoast Church",
+   "address": "750 Long Point Road, Mt Pleasant SC 29464"
+  },
+  {
+   "id": "5032",
+   "name": "Springfield Elementary School",
+   "address": "2130 Pinehurst Ave, Charleston SC 29414"
+  },
+  {
+   "id": "5008",
+   "name": "St Andrews Middle School Campus",
+   "address": "721 Wappoo Road, Charleston SC 29407"
+  },
+  {
+   "id": "3000",
+   "name": "St Andrews Mt Pleasant",
+   "address": "440 Whilden St, Mount Pleasant SC 29464"
+  },
+  {
+   "id": "5002",
+   "name": "St Andrews Parks Tennis Center",
+   "address": "1095 Playground Rd, Charleston SC 29407"
+  },
+  {
+   "id": "5000",
+   "name": "St Andrews School of Math and Science",
+   "address": "30 Chadwick Dr, Charleston SC 29407"
+  },
+  {
+   "id": "6018",
+   "name": "St John Catholic Church",
+   "address": "3921 St Johns Avenue, N Charleston SC 29405"
+  },
+  {
+   "id": "4020",
+   "name": "St Johns Fire District Headquarters",
+   "address": "1148 Main Rd, Johns Island SC 29455"
+  },
+  {
+   "id": "4024",
+   "name": "St Johns High School",
+   "address": "1518 Main Road, Johns Island SC 29455"
+  },
+  {
+   "id": "4038",
+   "name": "St Pauls Hollywood Library",
+   "address": "5130 Highway 165, Hollywood SC 29449"
+  },
+  {
+   "id": "5012",
+   "name": "St Peters Episcopal Church",
+   "address": "1393 Miles Dr, Charleston SC 29407"
+  },
+  {
+   "id": "4006",
+   "name": "Stiles Point Elementary School",
+   "address": "883 Mikell Drive, Charleston SC 29412"
+  },
+  {
+   "id": "5006",
+   "name": "Stono Park Elementary",
+   "address": "314 Huntley Dr, Charleston SC 29407"
+  },
+  {
+   "id": "1006",
+   "name": "Sunrise Presbyterian Church",
+   "address": "3222 Middle St, Sullivans Island SC 29482"
+  },
+  {
+   "id": "1024",
+   "name": "The Sandcastle",
+   "address": "1 Shipwatch Rd, Kiawah Island SC 29455"
+  },
+  {
+   "id": "3032",
+   "name": "Thomas C Cario Middle School",
+   "address": "3500 Thomas Cario Blvd, Mt Pleasant SC 29466"
+  },
+  {
+   "id": "4002",
+   "name": "Thomas Johnson Field House",
+   "address": "1443 Secessionville Rd, Charleston SC 29412"
+  },
+  {
+   "id": "3020",
+   "name": "Trident Academy",
+   "address": "1455 Wakendaw Rd, Mt Pleasant SC 29464"
+  },
+  {
+   "id": "1020",
+   "name": "Trinity Church",
+   "address": "1589 Highway 174, Edisto Island SC 29438"
+  },
+  {
+   "id": "6020",
+   "name": "W B Goodwin Elementary School",
+   "address": "5501 Dorchester Road, N Charleston SC 29418"
+  },
+  {
+   "id": "3040",
+   "name": "Wando Library",
+   "address": "1400 Carolina Park Blvd, Mount Pleasant SC 29466"
+  },
+  {
+   "id": "5030",
+   "name": "West Ashley High School",
+   "address": "4060 Wildcat Boulevard, Charleston SC 29414"
+  },
+  {
+   "id": "9012",
+   "name": "Election Headquarters",
+   "address": "4340 Corporate Road, N Charleston SC 29406"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+/* CHS Votes brand: navy primary, white header logo, light page background. */
+:root{--navy:#172a51;--navyHi:#2a4580;--focus:#3d6fd1;--bg:#f3f5f8;--ink:#14203a;--mute:#4a5572;--line:#cdd4e0;--acc:#172a51;--accInk:#fff;--panel:#fff;--err:#a12a2a;--ok:#1d6a3a}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{background:var(--bg)}
+body{margin:0;min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;align-items:center;background:var(--bg);color:var(--ink);font:400 17px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.brand{width:100%;background:var(--navy);display:flex;justify-content:center;padding:18px 16px 16px;padding-top:max(18px,env(safe-area-inset-top))}
+.brand img{display:block;width:100%;max-width:220px;height:auto}
+main{width:calc(100% - 32px);max-width:420px;margin:24px 16px 32px;background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--navy);border-radius:8px;padding:26px 22px}
+h1{font:700 25px/1.2 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--navy);margin:0 0 8px}
+p{margin:0 0 18px;color:var(--mute)}
+label{display:block;font-weight:600;margin-bottom:6px}
+input,select{width:100%;font:inherit;color:var(--ink);background:#fff;border:1px solid #8a94a8;border-radius:6px;padding:12px}
+button{width:100%;margin-top:14px;font:inherit;font-weight:600;color:var(--accInk);background:var(--acc);border:2px solid var(--acc);border-radius:6px;padding:11px;cursor:pointer}
+button:hover:not(:disabled){background:var(--navyHi);border-color:var(--navyHi)}
+button:disabled{opacity:.6;cursor:default}
+input:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+input:focus,select:focus{border-color:var(--navy)}
+.gap{margin-top:14px}
+.err{color:var(--err);min-height:1.5em;margin:10px 0 0}
+.wide{max-width:480px}
+button.secondary{background:#fff;color:var(--navy);border:2px solid var(--navy)}
+button.secondary:hover:not(:disabled){background:#e8eef9;color:var(--navy);border-color:var(--navy)}
+.ok{color:var(--ok);min-height:1.5em;margin:10px 0 0}
+.meta{color:var(--mute);font-size:.9rem;margin:0 0 14px}
+.pinshow{font:600 28px/1.2 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.12em;text-align:center;padding:14px;border:1px dashed var(--navy);border-radius:6px;margin:12px 0;color:var(--navy)}
+hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+h2{font:700 20px/1.25 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--navy);margin:0 0 8px}
+.sessions{list-style:none;margin:0;padding:0}
+.sessions li{border:1px solid var(--line);border-radius:6px;padding:12px;margin:0 0 10px}
+.sessions li p{margin:0 0 4px}
+.sessions .who{color:var(--ink);font-weight:600;overflow-wrap:anywhere}
+.sessions li button{margin-top:8px}
+@media (min-width:700px){.brand{padding:22px 16px 20px}.brand img{max-width:260px}main{margin-top:36px;padding:30px 28px}}
+
+/* ---- tawk.to version: form fields, touch targets, contrast ---- */
+input,select{min-height:48px;font-size:17px}
+button{min-height:50px;font-size:18px}
+h2{margin-top:6px}
+.field{margin-bottom:18px}
+.req{color:var(--err)}
+.sublabel{font-weight:400;color:var(--mute);font-size:.95rem;margin:0 0 4px}
+.meta{margin:4px 0 8px}
+.addr{margin:8px 0 0;padding:10px 12px;background:#eef3fb;border-left:4px solid var(--navy);border-radius:4px;color:var(--ink);font-size:.97rem}
+.addr:empty{display:none}
+.ferr{color:var(--err);font-weight:600;margin:6px 0 0;font-size:.97rem}
+.ferr:empty{display:none}
+input[aria-invalid="true"],select[aria-invalid="true"]{border:2px solid var(--err)}
+button.linkish{background:none;border:0;color:var(--navy);text-decoration:underline;font-weight:600;font-size:1rem;min-height:44px;margin-top:8px}
+button.linkish:hover:not(:disabled){background:none;color:var(--navyHi)}
+.who{color:var(--ink);font-weight:600;overflow-wrap:anywhere}

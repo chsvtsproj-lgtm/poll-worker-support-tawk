@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://embed.tawk.to https://*.tawk.to https://cdn.jsdelivr.net; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://poll-worker-relay-tawk.chsvotes-support.workers.dev https://*.tawk.to wss://*.tawk.to; img-src 'self' data: blob: https://*.tawk.to https://cdn.jsdelivr.net https://tawk.link https://s3.amazonaws.com; font-src 'self' https://*.tawk.to https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://*.tawk.to https://fonts.googleapis.com https://cdn.jsdelivr.net; frame-src https://*.tawk.to; media-src https://*.tawk.to; form-action 'self' https://*.tawk.to; object-src 'none'; base-uri 'self'">
+<meta name="referrer" content="no-referrer">
+<title>Charleston County Poll Worker Support</title>
+<link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#172a51">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="brand"><img src="logo.png" alt="CHS Votes" width="800" height="326"></header>
+<main>
+<h1>Charleston County Poll Worker Support</h1>
+
+<section id="pinStep" aria-labelledby="pinTitle">
+<h2 id="pinTitle">Step 1 of 2: Enter the PIN</h2>
+<p>Enter the PIN from your election office to start a support chat.</p>
+<form id="pinForm" autocomplete="off" novalidate>
+<label for="pin">PIN <span class="req" aria-hidden="true">*</span></label>
+<input id="pin" type="password" required aria-required="true" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="64">
+<button id="pinGo" type="submit">Continue</button>
+<p class="err" id="pinMsg" role="alert"></p>
+</form>
+</section>
+
+<section id="detailsStep" hidden aria-labelledby="detTitle">
+<h2 id="detTitle">Step 2 of 2: Your details</h2>
+<p>All fields are required. They are saved on this device so you don't have to retype them next time.</p>
+<form id="detForm" autocomplete="on" novalidate>
+<div class="field">
+<label for="name">Name <span class="req" aria-hidden="true">*</span></label>
+<input id="name" type="text" required aria-required="true" maxlength="80" autocomplete="name" autocapitalize="words" spellcheck="false" aria-describedby="name-error">
+<p class="ferr" id="name-error" aria-live="polite"></p>
+</div>
+<div class="field">
+<label for="loc">Polling Place <span class="req" aria-hidden="true">*</span></label>
+<label for="locFilter" class="sublabel">Type to filter the list (optional)</label>
+<input id="locFilter" type="search" inputmode="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="e.g. Library, Mt Pleasant" aria-controls="loc" aria-describedby="locCount">
+<p class="meta" id="locCount" aria-live="polite"></p>
+<select id="loc" required aria-required="true" disabled aria-describedby="locAddr loc-error"><option value="">Loading locations...</option></select>
+<p class="addr" id="locAddr" aria-live="polite"></p>
+<p class="ferr" id="loc-error" aria-live="polite"></p>
+</div>
+<div class="field">
+<label for="phone">Phone Number <span class="req" aria-hidden="true">*</span></label>
+<p class="meta" id="phoneHint">10-digit US number, e.g. (843) 555-0123</p>
+<input id="phone" type="tel" required aria-required="true" maxlength="16" autocomplete="tel-national" inputmode="tel" placeholder="(843) 555-0123" aria-describedby="phoneHint phone-error">
+<p class="ferr" id="phone-error" aria-live="polite"></p>
+</div>
+<button id="go" type="submit">Start Chat</button>
+<p class="err" id="msg" role="alert"></p>
+<button id="back" type="button" class="secondary">Back</button>
+<button id="forget" type="button" class="linkish">Not you? Clear saved details</button>
+</form>
+</section>
+
+<section id="live" hidden>
+<p id="where" class="who"></p>
+<p id="liveMsg" role="status">The chat opens on this page. If you close it, use the button below to open it again.</p>
+<button id="reopen" type="button">Open chat</button>
+</section>
+</main>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body></html>
